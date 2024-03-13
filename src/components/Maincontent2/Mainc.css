@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+   
+}
+
+.text {
+    text-align: left;
+    margin-top: 7%; /* Adjust margin for responsiveness */
+    margin-bottom: 10%;
+    width: 42%;
+}
+
+img {
+    max-width: 70%; /* Ensure image resizes proportionally */
+}
+.buttonn{
+    margin-top: 88px;
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Change flex direction to column */
+        padding: 10px; /* Adjust padding for smaller screens */
+        font-size: 12px;
+    }
+
+    .text {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    img {
+        width: 100%; /* Ensure image resizes proportionally */
+        max-width: 258px; /* Set maximum width for smaller screens */
+        order: -1; /* Reorder the image to appear above the text */
+    }
+}

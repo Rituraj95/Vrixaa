@@ -1,0 +1,45 @@
+.maincontent4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .maincontent4 img {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Adjust spacing between images */
+  }
+  .galtext{
+    display: flex;
+    margin-left: 237px;
+  margin-top: 138px;
+  }
+  .text{
+    width: 306px;
+   
+    margin: 167px;
+
+  }
+  .text p{
+    width: 302px;
+height: 48px;
+
+font-size: 13px;
+font-weight: 600;
+
+letter-spacing: 0.1em;
+text-align: left;
+
+
+
+
+  }
+  .text h2{
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.1em;
+text-align: left;
+
+  }

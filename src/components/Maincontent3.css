@@ -1,0 +1,138 @@
+
+.jobb{
+    background-color: #C3D8FF;
+    
+    height: 760px;
+}
+.job h2{
+    text-align: center;
+    
+    margin-top:73px;
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.1em;
+text-align: center;
+
+
+  
+}
+.job2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.job2 .card{
+   background-color:#FFFFFF;
+   color: black;
+}
+.card img{
+    max-width: 12%;
+}
+.carddd {
+    display: flex;
+    padding-top: 30px;
+    width: 1140px;
+    height: 200px;
+    top: 1260px;
+    left: 129px;
+   background: #6170F8;
+
+    margin-left: 200px;
+    margin-top: 40px;
+    border-top-right-radius: 70px; /* Curving the top right corner */
+    border-bottom-left-radius: 70px; /* Curving the bottom left corner */
+}
+
+.carddd .cardh1{
+    color: white;
+    font-weight: bold;
+    width: 55%;
+  font-size: 31px;
+  margin-left: 39px;
+  margin-top: 34px;
+
+}
+.carddd .cardp1{
+    color: white;
+    font-size: 20px;
+    margin-left: 154px;
+    margin-right: 60px;
+
+}
+.butn{
+    margin-left: 150px;
+    margin-top: 28px;
+}
+.cardimg{
+    display: flex;
+}
+.cardimg h3{
+    margin-left: 14px;
+    font-size: 13px;
+
+}
+.cardimg h4{
+    margin-left: 5px;
+  font-size: 11px;
+  margin-top: 14px;
+  color: #5b5858;
+    
+}
+.card h1{
+    margin-left: 20px;
+}
+
+.cardimg img{
+    width: 50px;
+height: 50px;
+margin-left: 23px;
+
+}
+.cardimggg{
+    display: flex;
+}
+.cardimgg{
+    display: flex;
+    margin-left: 20px;
+}
+.cardimgg img{
+    height: 21px;
+    margin-top: 9px;
+    width: 115px;
+}
+.cardimggg h3{
+    margin-left: 20px;
+}
+.lastcont{
+    background: #C5CAFF;
+    
+  width: 99px;
+  margin-left: 29px;
+  border-radius: 20px;
+
+}
+.lastcont h3{
+  margin-left: 6px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .job2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 40px;
+    }
+    .jobb{
+        height: 1775px;
+    }
+    .carddd{
+        display: none
+    }
+}

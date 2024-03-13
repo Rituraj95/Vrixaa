@@ -1,0 +1,25 @@
+.containerr {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    margin-left: 1435px;
+  top: -383px;
+}
+  
+  .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ccc; /* Change color as needed */
+  }
+  .inner-circle {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background-color: #f0f0f0; /* Change color as needed */
+  }
